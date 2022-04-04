@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resume_thirds",
+  "info": {
+    "displayName": "Third Type",
+    "icon": "eye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    }
+  }
+}

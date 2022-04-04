@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "overviewTitle": {
+      "type": "string"
+    },
+    "overviewContent": {
+      "type": "richtext"
+    },
+    "aboutmeContent": {
+      "type": "richtext"
+    },
+    "opportunitiesTitle": {
+      "type": "richtext"
+    },
+    "opportunitiesContent": {
+      "type": "richtext"
+    }
+  }
+}

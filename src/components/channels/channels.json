@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_channels_channels",
+  "info": {
+    "displayName": "channels",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logoName": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

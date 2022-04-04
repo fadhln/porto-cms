@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "resume_pages",
+  "info": {
+    "singularName": "resume-page",
+    "pluralName": "resume-pages",
+    "displayName": "Resume Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "academicSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.first-resume-type"
+    },
+    "proffesionalSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.first-resume-type"
+    },
+    "activitiesSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.first-resume-type"
+    },
+    "achievementSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.second-type"
+    },
+    "certificatesSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.third"
+    }
+  }
+}
