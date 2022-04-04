@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,11 @@
     "slug": {
       "type": "uid",
       "targetField": "mainTitle"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
     }
   }
 }

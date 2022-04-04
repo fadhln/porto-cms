@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "maxLength": 55
+    },
+    "metaDescription": {
+      "type": "text",
+      "maxLength": 155
+    },
+    "shareImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.share-image"
+    },
+    "keywords": {
+      "type": "text"
+    }
+  }
+}

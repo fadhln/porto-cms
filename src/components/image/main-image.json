@@ -20,6 +20,9 @@
     },
     "attribution": {
       "type": "richtext"
+    },
+    "altText": {
+      "type": "string"
     }
   }
 }

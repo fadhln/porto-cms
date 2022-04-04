@@ -12,6 +12,9 @@
     },
     "issuer": {
       "type": "string"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

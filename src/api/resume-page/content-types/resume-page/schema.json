@@ -39,6 +39,11 @@
       "type": "component",
       "repeatable": true,
       "component": "resume.third"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
     }
   }
 }

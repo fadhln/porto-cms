@@ -21,6 +21,9 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
