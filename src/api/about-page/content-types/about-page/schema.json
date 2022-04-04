@@ -28,6 +28,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.meta"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.main-image"
     }
   }
 }
